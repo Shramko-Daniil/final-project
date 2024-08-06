@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: var(--header-color1);
+  height: 60px;
+  &__title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  &__links {
+    display: flex;
+    flex-direction: row;
+  }
+  &__btn {
+    font-size: 14px;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    border: none;
+    background-color: var(--header-color1);
+    transition: 0.5s;
+  }
+  &__btn:hover {
+    opacity: 60%;
+    transition: 0.5s;
+  }
+  &-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    &__theme-toogle {
+      width: 60px;
+      height: 30px;
+      border: none;
+      border-radius: 40px;
+      background: var(--grey-color);
+    }
+    &__language-changer {
+      width: 60px;
+      height: 30px;
+      border: 1px solid var(--black-color);
+      border-radius: 8px;
+      background: var(--white-color);
+    }
+  }
+}

@@ -1,0 +1,217 @@
+.light-info1-container {
+  align-items: center;
+  width: 80%;
+  height: 340px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  background: var(--lightyellow-color);
+  border-radius: 40px;
+
+  .dynamic-lamp1 {
+    width: 180px;
+    height: 225px;
+  }
+
+  .city-region1 {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+.info1-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h2 {
+    font-weight: bold;
+  }
+
+  &__title {
+    padding: 20px 120px;
+    background: var(--header-color1);
+    border-radius: 19px;
+  }
+
+  &__description {
+    padding: 28px 22px;
+    background: var(--header-color1);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    &-left {
+      display: block;
+      flex-direction: column;
+      align-items: left;
+      text-align: left;
+      justify-content: left;
+      .common1 {
+        line-height: 200%;
+      }
+    }
+
+    &-right {
+      flex-direction: column;
+      gap: 5px;
+      align-items: right;
+      text-align: right;
+      justify-content: right;
+      .common1 {
+        line-height: 200%;
+      }
+    }
+  }
+}
+
+.light-info2-container {
+  align-items: center;
+  width: 80%;
+  height: 340px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  background: var(--lightyellow-color);
+  border-radius: 40px;
+
+  .dynamic-lamp2 {
+    width: 180px;
+    height: 225px;
+  }
+
+  .city-region2 {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+.info2-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h2 {
+    font-weight: bold;
+  }
+
+  &__title {
+    padding: 20px 120px;
+    background: var(--header-color1);
+    border-radius: 19px;
+  }
+
+  &__description {
+    padding: 28px 22px;
+    background: var(--header-color1);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    &-left {
+      display: block;
+      flex-direction: column;
+      align-items: left;
+      text-align: left;
+      justify-content: left;
+      .common2 {
+        line-height: 200%;
+      }
+    }
+
+    &-right {
+      flex-direction: column;
+      gap: 5px;
+      align-items: right;
+      text-align: right;
+      justify-content: right;
+      .common2 {
+        line-height: 200%;
+      }
+    }
+  }
+}
+
+.light-info3-container {
+  align-items: center;
+  width: 80%;
+  height: 340px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  background: var(--lightyellow-color);
+  border-radius: 40px;
+
+  .dynamic-lamp3 {
+    width: 180px;
+    height: 225px;
+  }
+
+  .city-region3 {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+.info3-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h2 {
+    font-weight: bold;
+  }
+
+  &__title {
+    padding: 20px 120px;
+    background: var(--header-color1);
+    border-radius: 19px;
+  }
+
+  &__description {
+    padding: 28px 22px;
+    background: var(--header-color1);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    &-left {
+      display: block;
+      flex-direction: column;
+      align-items: left;
+      text-align: left;
+      justify-content: left;
+      .common3 {
+        line-height: 200%;
+      }
+    }
+
+    &-right {
+      flex-direction: column;
+      gap: 5px;
+      align-items: right;
+      text-align: right;
+      justify-content: right;
+      .common3 {
+        line-height: 200%;
+      }
+    }
+  }
+}
+
+// .info-block {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 40px;
+//   h2 {
+//     font-weight: bold;
+//   }
+//   &__description {
+//     display: flex;
+//     flex-direction: column;
+
+//     &-line {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: stretch;
+//       gap: 40px;
+//     }
+//   }
+// }
